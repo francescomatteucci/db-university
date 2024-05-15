@@ -15,3 +15,8 @@ SELECT `*`
 FROM `students`
 WHERE YEAR(`date_of_birth`) <= YEAR(CURRENT_DATE()) - 30;
 
+-----FOURTH QUERY-----
+
+SELECT `*`
+FROM `courses`
+WHERE `year` = 1 AND `period` LIKE 'I %';
