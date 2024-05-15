@@ -33,3 +33,7 @@ SELECT `*`
 FROM `degrees`
 WHERE `name` LIKE 'Corso di Laurea Magistrale%';
  AND `date` = '2020-06-20';
+
+-----SEVENTH QUERY-----
+
+SELECT * FROM `departments`;
