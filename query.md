@@ -20,3 +20,9 @@ WHERE YEAR(`date_of_birth`) <= YEAR(CURRENT_DATE()) - 30;
 SELECT `*`
 FROM `courses`
 WHERE `year` = 1 AND `period` LIKE 'I %';
+
+-----FIFTH QUERY-----
+
+SELECT `*`
+FROM `exams`
+WHERE `hour` >= '14%' AND `date` = '2020-06-20';
