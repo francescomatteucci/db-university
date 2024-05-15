@@ -26,3 +26,10 @@ WHERE `year` = 1 AND `period` LIKE 'I %';
 SELECT `*`
 FROM `exams`
 WHERE `hour` >= '14%' AND `date` = '2020-06-20';
+
+-----SIXTH QUERY-----
+
+SELECT `*`
+FROM `degrees`
+WHERE `name` LIKE 'Corso di Laurea Magistrale%';
+ AND `date` = '2020-06-20';
