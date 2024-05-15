@@ -8,7 +8,6 @@ WHERE YEAR(`date_of_birth`) = 1990;
 
 SELECT * FROM `courses` WHERE `cfu` > 10;
 
-
 -----THIRD QUERY-----
 
 SELECT `*`
@@ -37,3 +36,9 @@ WHERE `name` LIKE 'Corso di Laurea Magistrale%';
 -----SEVENTH QUERY-----
 
 SELECT * FROM `departments`;
+
+-----EIGHTH QUERY-----
+
+SELECT `*`
+FROM `teachers`
+WHERE `phone` IS NULL;
